@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto 20px;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background: none;
+    border: 1px solid black;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Otomanopee One', sans-serif;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+button:focus {
+    background-color: white;
+    color: black;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.header {
+    /* background-color: #42b4a5; */
+    background: radial-gradient(#96c93d, #00b09b);
+    padding: 10px;
+}
+
+.question {
+    height: 250px;
+    width: fit-content;
+    margin: auto;
+    visibility: hidden;
+}
+
+.answers {
+    text-align: center;
+}
+
+.opt {
+    margin: 20px auto;
+    border: 1px solid #42b4a5;
+    width: 300px;
+    padding: 10px;
+    transition: all 0.3s;
+    color: #42b4a5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.opt:hover {
+    background-color: #42b4a5;
+    color: white;
+    padding: 10px 20px;
+}
+
+.clicked {
+    background-color: #e54d4d;
+    color: white;
+    /* transition: all 0.2s; */
+}
+
